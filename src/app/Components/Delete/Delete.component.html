@@ -1,0 +1,8 @@
+<input type="text" class="form-control" [(ngModel)]="productId" />
+<button
+  class="btn btn-danger my-4"
+  (click)="onDelete()"
+  [disabled]="!productId"
+>
+  Delete
+</button>

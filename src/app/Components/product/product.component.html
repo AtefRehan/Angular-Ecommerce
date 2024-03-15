@@ -1,0 +1,27 @@
+
+     <div class="card text-center m-3" style="width: 23rem;" appProducthighlight [appHighlight]="product.quantity" [ngClass]="{'cards': product.quantity == 0}" (click)="handleRoute(product.id)">
+  <img src="{{product.imgURL}}" class="card-img-top" alt="..." style="width: 200px; height: 200px;margin: auto;">
+  <div class="card-body">
+    <h5 class="card-title" [innerHTML]="product.name"></h5>
+    <p >Price {{product.price | currency}}</p>
+    <p >Discount <u class="text-danger">{{product.discount}}%</u></p>
+
+    @switch (product.quantity) {
+      @case (1) {
+      <p class="text-warning">Only 1 left in stock - order soon.</p>
+      }
+      @case (2) {
+      <p class="text-info">Only 2 left in stock - order soon.</p>
+      }@default {
+        <p >Number Of Product : {{product.quantity}}</p>
+      }}
+      <button href="#" class="btn btn-primary" (click)="addProductToCart($event,product)"
+      [disabled]="product.quantity==0">Add to cart</button>
+@if(product.quantity==0){
+      <p class="text-danger">Out Of Stock</p>
+    }@else {
+      <p class="text-success">In Stock</p>
+    }
+  </div>
+</div>
+

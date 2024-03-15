@@ -1,0 +1,102 @@
+{
+  "products": [
+    {
+      "id": "2",
+      "name": "Table",
+      "price": 190,
+      "quantity": 2,
+      "imgURL": "https://i.pinimg.com/564x/4e/4e/ec/4e4eecf13ba7a564dfccc82635df69bb.jpg",
+      "categoryID": 3,
+      "discount": 20,
+      "matrial": "wood",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit."
+    },
+    {
+      "id": "3",
+      "name": "Furniture Unit",
+      "price": 150,
+      "quantity": 3,
+      "imgURL": "https://i.pinimg.com/474x/ed/a8/c3/eda8c3bba5c967575a0aeb954db6acba.jpg",
+      "categoryID": 3,
+      "discount": 20,
+      "matrial": "MDF",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit."
+    },
+    {
+      "id": "4",
+      "name": "Furniture Unit",
+      "price": 150,
+      "quantity": 4,
+      "imgURL": "https://i.pinimg.com/474x/97/e0/20/97e020acb644ec78f81b8d687350e136.jpg",
+      "categoryID": 3,
+      "discount": 20,
+      "matrial": "MDF",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit."
+    },
+    {
+      "id": "5",
+      "name": "Furniture Unit",
+      "price": 150,
+      "quantity": 4,
+      "imgURL": "https://i.pinimg.com/564x/40/7c/37/407c37ec3402176b9a589797e2818654.jpg",
+      "categoryID": 3,
+      "discount": 20,
+      "matrial": "MDF",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit."
+    },
+    {
+      "id": "6",
+      "name": "Furniture Unit",
+      "price": 150,
+      "quantity": 4,
+      "imgURL": "https://i.pinimg.com/736x/df/15/06/df15064441b79f849452c1d6717de30d.jpg",
+      "categoryID": 3,
+      "discount": 20,
+      "matrial": "MDF",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit."
+    },
+    {
+      "id": "7",
+      "name": "Furniture Unit",
+      "price": 150,
+      "quantity": 4,
+      "imgURL": "https://i.pinimg.com/736x/5d/d7/45/5dd7452b1ab11fd934d1465fce2ac31d.jpg",
+      "categoryID": 3,
+      "discount": 20,
+      "matrial": "MDF",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit."
+    },
+    {
+      "id": "8",
+      "name": "Furniture Unit",
+      "price": 150,
+      "quantity": 4,
+      "imgURL": "https://i.pinimg.com/736x/5d/d7/45/5dd7452b1ab11fd934d1465fce2ac31d.jpg",
+      "categoryID": 3,
+      "discount": 20,
+      "matrial": "MDF"
+    },
+    {
+      "id": "9",
+      "name": "Furniture Unit",
+      "price": 150,
+      "quantity": 4,
+      "imgURL": "https://i.pinimg.com/736x/5d/d7/45/5dd7452b1ab11fd934d1465fce2ac31d.jpg",
+      "categoryID": 3,
+      "discount": 20,
+      "matrial": "MDF"
+    }
+  ],
+  "users": [
+    {
+      "email": "atefrehan11@icloud.com",
+      "password": "123",
+      "id": "2b89"
+    },
+    {
+      "id": "2",
+      "username": "user2",
+      "email": "user2@example.com"
+    }
+  ]
+}
