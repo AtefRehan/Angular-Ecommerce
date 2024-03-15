@@ -1,16 +1,16 @@
-import { Component } from '@angular/core';
-import { IProduct } from '../../models/iproduct';
-import { HttpproductsService } from '../../Services/httpproducts.service';
-import { FormsModule } from '@angular/forms';
+import { Component } from "@angular/core";
+import { IProduct } from "../../models/iproduct";
+import { HttpproductsService } from "../../Services/httpproducts.service";
+import { FormsModule } from "@angular/forms";
 
 @Component({
-  selector: 'app-delete',
+  selector: "app-delete",
   standalone: true,
   imports: [FormsModule],
-  templateUrl: './Delete.component.html',
-  styleUrl: './Delete.component.css',
+  templateUrl: "./Delete.component.html",
+  styleUrl: "./Delete.component.css",
 })
-export class DeletComponent {
+export class DeleteComponent {
   product: IProduct | undefined;
   productId: number | undefined;
 
@@ -20,15 +20,15 @@ export class DeletComponent {
       this.httpproduct.deleteProduct(this.productId).subscribe(
         () => {
           confirm(`Are you sure to delete this product ?`);
-          console.log('Product deleted successfully');
+          console.log("Product deleted successfully");
         },
         (error) => {
-          alert('This product is unavailable !');
-          console.error('Error deleting product:', error);
+          alert("This product is unavailable !");
+          console.error("Error deleting product:", error);
         }
       );
     } else {
-      console.error('Product ID is undefined');
+      console.error("Product ID is undefined");
     }
   }
 }

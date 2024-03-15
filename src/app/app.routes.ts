@@ -6,7 +6,7 @@ import { AboutusComponent } from "./Components/About/About.component";
 import { ActionComponent } from "./Components/Actions/action.component";
 import { SomeactionsComponent } from "./Components/someactions/someactions.component";
 import { EditComponent } from "./Components/Edit/Edit.component";
-import { DeletComponent } from "./Components/Delete/Delete.component";
+import { DeleteComponent } from "./Components/Delete/Delete.component";
 import { SignupComponent } from "./Components/signnup/signnup.component";
 import { LoginComponent } from "./Components/Login/Login.component";
 import { authGuard } from "./Gurards/auth.guard";
@@ -25,7 +25,7 @@ export const routes: Routes = [
   { path: "aboutus", component: AboutusComponent, title: "About Us" },
   { path: "action", component: SomeactionsComponent, title: "Action" },
   { path: "edit", component: EditComponent, title: "Edit" },
-  { path: "delet", component: DeletComponent, title: "Delet" },
+  { path: "delete", component: DeleteComponent, title: "Delete" },
   { path: "signup", component: SignupComponent, title: "Sign Up" },
   { path: "login", component: LoginComponent, title: "Login" },
 ];
